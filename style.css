@@ -1,0 +1,132 @@
+#main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: aliceblue;
+}
+
+body{
+    background-image: url("imgs/backg.jpg");
+    background-size: 180%;
+    color: aliceblue;
+
+}
+
+nav{
+   background-color:#4d5c64;
+   text-align: center;
+   padding: 0.5%;
+   position: sticky;
+      }
+
+nav ul {
+list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 60px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+#game-page a{
+    text-decoration: none;
+    color:#3fbfaf;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+
+
+
+.skip-link  {
+    position:fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.skip-link:focus  {
+    background-color: #555;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+h2{
+    display: block;
+    text-align: center;
+}
+.citys-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 185vh;
+}
+.skills-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.grid-item {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.grid-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.skills-intro{
+    display: flex;
+    text-align:center;
+    font-family: 'Georgia', serif;
+    color: aliceblue;
+
+}
+
